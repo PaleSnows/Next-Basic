@@ -11,8 +11,8 @@ export default function DashBoardLayout({
 }) {
   return (
     <>
-      <div className="">{children}</div>
-      <div className="flex">
+      <div className="m-2">{children}</div>
+      <div className="flex my-5 mx-2">
         <div className="flex">
             <div className="">{users}</div>
             <div className="">{revenue}</div>
